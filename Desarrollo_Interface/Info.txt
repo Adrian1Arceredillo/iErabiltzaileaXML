@@ -1,0 +1,20 @@
+Programas, Interfaces, Conceptos...
+
+1.- XML Interface
+	- Android Studio
+	- Figma
+
+2.- Desktop Interfaces
+	- Visual Studio
+	- C# .NET
+	- Heredar paquetes de software
+
+3.- Web Interfaces
+	- Visual Studio
+	- ASP .NET
+	- REST API
+
+Otros
+	- Postgress
+	- C#
+	- visual studio 2022 community
