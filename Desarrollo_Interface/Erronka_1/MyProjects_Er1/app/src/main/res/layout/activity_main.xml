@@ -3,34 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#4d81a2"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/txtTestua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kaixo Mundua!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextTextPostalAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPostalAddress"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="245dp"
-        tools:text="sdad" />
-
     <Button
-        android:id="@+id/btnPrueba"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="178dp" />
+        android:id="@+id/btnAgurra"
+        android:layout_width="141dp"
+        android:layout_height="53dp"
+        android:background="@drawable/botoia"
+        android:text="CLICK HEMEN"
+        android:textColor="@drawable/txtboton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
