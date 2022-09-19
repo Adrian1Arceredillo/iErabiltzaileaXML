@@ -10,7 +10,7 @@ import android.os.Bundle;
 
 public class Bigarrena extends AppCompatActivity {
 
-    private CheckBox cdEnglish;
+    private CheckBox cbEnglish;
     private Button btnBai, btnEz;
 
     @Override
@@ -18,20 +18,20 @@ public class Bigarrena extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bigarrena);
 
-        cdEnglish = (CheckBox) findViewById(R.id.cbEnglish);
+        cbEnglish = (CheckBox) findViewById(R.id.cbEnglish);
         btnBai = (Button)findViewById(R.id.btnBai);
         btnEz = (Button)findViewById(R.id.btnEz);
 
-        cdEnglish.setOnClickListener(new View.OnClickListener() {
+        cbEnglish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (cdEnglish.isChecked())
+                if (cbEnglish.isChecked())
                 {
                     btnBai.setText(R.string.bai_en);
                     btnEz.setText(R.string.ez_en);
                 } else {
                     btnBai.setText(R.string.bai_eu);
-                    btnEz.setText(R.string.ez_eu); }
+                    btnEz.setText("Ez"); }
         }
         });
 

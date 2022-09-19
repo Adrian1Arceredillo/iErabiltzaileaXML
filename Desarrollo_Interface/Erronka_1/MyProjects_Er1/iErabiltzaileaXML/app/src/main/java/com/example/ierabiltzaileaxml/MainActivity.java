@@ -2,6 +2,7 @@ package com.example.ierabiltzaileaxml;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,9 +25,13 @@ public class MainActivity extends AppCompatActivity {
 
         btnAgurra.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
+
                 txtTestua.setText("Kaixo Mundua!!!");
+                startActivity(new Intent(MainActivity.this, Bigarrena.class));
             }
         });
+
+
 
     }
 

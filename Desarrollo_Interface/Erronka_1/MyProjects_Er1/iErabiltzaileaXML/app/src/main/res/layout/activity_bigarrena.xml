@@ -12,23 +12,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="English"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="230dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnBai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="244dp"
         android:text="Bai"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="130dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnEz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="76dp"
         android:text="Ez"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="130dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
